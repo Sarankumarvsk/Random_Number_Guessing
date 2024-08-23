@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomNumberGenerator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <br>
+        <center><h1 id="head"><b>Number Guessing Application</b></h1></center>
+        <center><h3 id="rule">Rules</h3></center>
+       <ul>
+            <li>Select a number from 1 to 100</li>
+            <li>Click on the check button</li>
+            <li>It will give you a hint to guess the number correctly</li>
+            <li>Repeat the same step until you find the number</li>
+        </ul>
+        <center><input type="number" id="num" placeholder="Enter the number"></center>
+        <center><p id="hint"></p></center>
+        <center><p id="count"></p></center>
+    <div class="button1">
+        <button id="check" onclick="fun1()">Check</button>
+        <button id="reset" onclick="fun2()">Reset</button>
+    </div>
+    
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
